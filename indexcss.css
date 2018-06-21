@@ -1,0 +1,65 @@
+body {background-color: skyblue; margin: 0}
+html,body {height:100%; width: 100%}
+
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(balls.jpg); 
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-color: #67989A;
+	background-position: center;
+}
+
+.background {
+	animation: background-image 5s linear alternate;
+}
+
+@keyframes background-image{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1; 
+	}
+}
+
+.submit {
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	display: flex;
+	margin-bottom: 50px;
+	text-align: center;
+	justify-content: center;
+	border: 2px solid rgba(1, 1, 1, 0.3);
+	opacity: 0.9;
+	display: inline-block;
+	box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	-webkit-text-stroke: 0;
+}
+
+.submit:hover {
+	background-color: #417D80;
+	transform: scale(1.05);
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	content-bottom: 110px;
+	display: block;
+	text-align: center;
+	font-family: fantasy;
+	color: white;
+	-webkit-text-stroke: 2px black;
+	opacity: 0.7;
+}
+
+form {
+	display: inline-block;
+}
+

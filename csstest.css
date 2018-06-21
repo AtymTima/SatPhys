@@ -1,0 +1,44 @@
+
+
+#content {
+    float: right;
+    width: 762px;
+    width: 74%;
+    margin-left: 0px;
+}
+
+#content2 {
+    float: right;
+    width: 12px;
+    width: 74%;
+    margin-left: 0px;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+body, html {
+	height: 605%
+}
+
+#sidebar {
+    border-right: 1px solid #bbb;
+    text-align: right;
+    width: 24%;
+}
+#sidebar {
+    float: left;
+    width: 280px;
+    margin-right: 0px;
+   /* background-color: red;*/
+    background:#7788AA;
+    opacity: 50%;
+    height: 100%;
+}
+
+
+div {
+    display: block;
+}
+
